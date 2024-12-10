@@ -5,7 +5,6 @@
 
 Welcome, terminal tinkerers and command-line enthusiasts! I’m thrilled to share our journey through the **minishell** project, one of the most challenging and rewarding experiences at 42 Berlin. This collaborative endeavor goes beyond simple coding—it's about understanding the inner workings of shells, processes, signals, and user interactions. By recreating features reminiscent of a classic bash environment, We’ve gained invaluable insights into system-level programming and team coordination.
 
-![minishell Passed](imgs/minishelle.png)
 
 ---
 
@@ -109,6 +108,8 @@ This project elevated our understanding of:
 Got ideas to enhance minishell, spot bugs, or improve efficiency? Contributions are always welcome! Open an issue or submit a pull request to help this project evolve further.
 
 ---
+
+![minishell Passed](imgs/minishelle.png)
 
 **Thank you for exploring my minishell project!**  
 May this journey into the heart of the command line inspire you to dig deeper into operating systems, shell internals, and the art of writing clean, reliable, and efficient C code. Happy hacking! 🎉
