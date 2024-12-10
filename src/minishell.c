@@ -62,7 +62,7 @@ void	minishell_loop(t_data *shell)
 	{
 		reset_shell(shell);
 		handle_signals(shell);
-		shell->input = readline("minishell$ ");
+		shell->input = readline(GREEN "💀 minishell> " RESET);
 		if (!shell->input)
 		{
 			write(1, "exit\n", 5);
@@ -92,5 +92,6 @@ int	main(int argc, char **argv, char **envp)
 	shell->exit = 0;
 	shell->envp = envp;
 	shell->env = create_env(envp);
+	print_welcome();
 	minishell_loop(shell);
 }

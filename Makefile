@@ -5,7 +5,7 @@ CFLAGS =  -Werror -Wextra -Wall -g
 
 RM = rm -rf
 
-SRCS =  src/minishell.c src/env.c src/execute.c src/free.c src/free_2.c\
+SRCS =  src/minishell.c src/env.c src/execute.c src/free.c src/free_2.c src/print.c\
 		src/builtins/env.c src/builtins/export.c src/parse.c src/parse_utils.c\
 		src/signals.c src/init.c src/errors.c src/lexer_utils.c  src/access.c\
 		src/lexer.c src/heredoc.c src/heredoc_utils.c src/expander.c \

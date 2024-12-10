@@ -36,6 +36,15 @@
 # define YES 1
 # define NO 0
 
+
+#define RED     "\033[31m"
+#define GREEN   "\033[32m"
+#define YELLOW  "\033[33m"
+#define BLUE    "\033[34m"
+#define MAGENTA "\033[35m"
+#define CYAN    "\033[36m"
+#define RESET   "\033[0m"
+
 extern int	g_heredoc;
 
 typedef struct s_env
@@ -83,6 +92,7 @@ typedef struct s_data
 	char		*heredoc_file;
 }	t_data;
 
+
 // Env
 t_env			*add_env(char *env, char *separator);
 void			append_env(t_data *shell, char *variable);
@@ -121,6 +131,7 @@ void			non_interactive_signals(void);
 void			handle_signals(t_data *shell);
 
 // Main
+void			print_welcome(void);
 void			check_pipe(t_data *shell);
 void			minishell_loop(t_data *shell);
 

@@ -25,10 +25,8 @@ static int	add_absolute(t_data *shell, char *str)
 int	check_access(t_data *shell, char **command)
 {
 	int		tracker;
-	int		j;
 
 	tracker = 0;
-	j = -1;
 	if (!add_absolute(shell, *command))
 		return (SUCCESS);
 	if (!shell->paths)
